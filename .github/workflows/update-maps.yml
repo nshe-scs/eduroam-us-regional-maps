@@ -2,9 +2,9 @@ name: Update eduroam maps
 
 on:
   schedule:
-    # 06:17 UTC daily. Deliberately not on the hour: GitHub's scheduler is
+    # 06:19 UTC daily. Deliberately not on the hour: GitHub's scheduler is
     # busiest then and routinely delays runs by tens of minutes.
-    - cron: "17 6 * * *"
+    - cron: "19 6 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -18,8 +18,10 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 
-permissions:
-  contents: write
+# The job pushes over SSH with a deploy key, so the GITHUB_TOKEN is not used
+# for anything. Asking for nothing keeps it that way even if the org default
+# later becomes permissive.
+permissions: {}
 
 jobs:
   update:
@@ -32,8 +34,11 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v4
-        # Shallow is fine: the job only ever adds a commit on top of the tip.
-        # The push step deepens the clone itself if it has to rebase.
+        with:
+          # Write access comes from a repository deploy key rather than the
+          # workflow token, so no org-wide permission change is needed.
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+        # Shallow: the push step deepens the clone itself if it has to rebase.
 
       - name: Build maps
         id: build
@@ -62,8 +67,7 @@ jobs:
           git commit -m "Update eduroam service location maps" -m "$SUMMARY"
 
           # The concurrency group serialises our own runs, so a rejected push
-          # means a human pushed meanwhile. Deepen, rebase the single commit
-          # onto the new tip, and retry once.
+          # means someone else pushed meanwhile. Rebase onto the tip and retry.
           if ! git push origin "HEAD:$BRANCH"; then
             echo "Push rejected; rebasing onto the current tip."
             git fetch --unshallow origin "$BRANCH" 2>/dev/null || git fetch origin "$BRANCH"
