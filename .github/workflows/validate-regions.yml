@@ -1,0 +1,50 @@
+name: Validate regions
+
+# Region files are configuration, so changing one is a pull request. This runs
+# the real job in dry-run mode and reports what the change would do, before it
+# can reach the nightly run.
+on:
+  pull_request:
+    paths:
+      - "regions/**"
+      - "config.json"
+      - "eduroam_maps.py"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      EDUROAM_OUTPUT_DIR: docs
+      EDUROAM_STATE_DIR: state
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Dry run
+        run: python3 ./eduroam_maps.py --dry-run --verbose 2>&1 | tee run.log
+
+      - name: Report
+        run: |
+          if grep -q "Skipping region" run.log; then
+            echo "::error::A region file could not be loaded."
+            grep "Skipping region" run.log
+            exit 1
+          fi
+          if grep -qE "would rebuild \S+ \(new region, 0 locations\)" run.log; then
+            echo "::warning::A new region clipped to zero locations. Check the boundary."
+          fi
+          {
+            echo "### Dry run"
+            echo '```'
+            grep -E "Loaded |would rebuild|retiring|run finished" run.log || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,9 @@
+# Runtime scratch; but don't ignore inventory in state/
+state/run.log
+state/run.lock
+state/source.kml
+state/source.meta.json
+state/publish.json
+state/last_run.json
+.http-cache/
+__pycache__/
