@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - name: Check out
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # Write access comes from a repository deploy key rather than the
           # workflow token, so no org-wide permission change is needed.
