@@ -40,6 +40,22 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
         # Shallow: the push step deepens the clone itself if it has to rebase.
 
+      - name: Ensure this run is at the branch tip
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          # "Re-run jobs" replays at the commit the original run used. On a
+          # repository the job itself commits to, that means rebuilding output
+          # that already exists and then colliding with it on push. Catch it
+          # before doing the work.
+          git fetch --depth 1 origin "$BRANCH"
+          head=$(git rev-parse HEAD)
+          tip=$(git rev-parse FETCH_HEAD)
+          if [ "$head" != "$tip" ]; then
+            echo "::error::This run is replaying ${head:0:7}, but origin/$BRANCH is now ${tip:0:7}. Re-running an old run rebuilds stale output. Start a new run instead: Actions -> Update eduroam maps -> Run workflow."
+            exit 1
+          fi
+
       - name: Build maps
         id: build
         env:
@@ -71,7 +87,15 @@ jobs:
           if ! git push origin "HEAD:$BRANCH"; then
             echo "Push rejected; rebasing onto the current tip."
             git fetch --unshallow origin "$BRANCH" 2>/dev/null || git fetch origin "$BRANCH"
-            git rebase "origin/$BRANCH"
+            if ! git rebase "origin/$BRANCH"; then
+              # Conflicting generated output means someone else published while
+              # this run was working. Abandon our commit rather than resolving
+              # it blind: nothing was pushed, so the next run simply rebuilds
+              # from the new tip.
+              git rebase --abort || true
+              echo "::error::Could not rebase onto origin/$BRANCH. Nothing was pushed; the next scheduled run will rebuild from the current tip."
+              exit 1
+            fi
             git push origin "HEAD:$BRANCH"
           fi
 
