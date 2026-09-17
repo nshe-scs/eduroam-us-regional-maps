@@ -104,14 +104,14 @@
     </Placemark>
     <Placemark>
       <name>Tulane University of Louisiana</name>
-      <description><![CDATA[<b>Name:</b> Health Sciences Center<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA2+WPA<br><b>AP:</b> -<br>]]></description>
+      <description><![CDATA[<b>Name:</b> Downtown Campus<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA2 + WPA3<br><b>AP:</b> -<br>]]></description>
       <Point>
         <coordinates>-90.0768769,29.95504,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Tulane University of Louisiana</name>
-      <description><![CDATA[<b>Name:</b> Uptown Campus<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA2+WPA<br><b>AP:</b> -<br>]]></description>
+      <description><![CDATA[<b>Name:</b> Uptown Campus<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA2 + WPA3<br><b>AP:</b> -<br>]]></description>
       <Point>
         <coordinates>-90.122739,29.9354099,0</coordinates>
       </Point>

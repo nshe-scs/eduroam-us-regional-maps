@@ -2,6 +2,23 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-09-17 06:45 UTC
+
+6 added, 1 removed across 2 region(s).
+
+### Louisiana — 19 → 19
+
+- **added** Tulane University of Louisiana — Downtown Campus `(29.95504, -90.0768769)`
+- **removed** Tulane University of Louisiana — Health Sciences Center `(29.95504, -90.0768769)`
+
+### Michigan — 503 → 508
+
+- **added** River Rouge Sch Dist — Ann Visger Preparatory Academy (PreK&#8211;5) `(42.2645855, -83.1362401)`
+- **added** River Rouge Sch Dist — Clarence B. Sabbath Middle School (6&#8211;8) `(42.2710321, -83.1465569)`
+- **added** River Rouge Sch Dist — District Administration &amp; Enrollment Office `(42.2752866, -83.1371775)`
+- **added** River Rouge Sch Dist — River Rouge High School &amp; Virtual Academy `(42.2752866, -83.1371775)`
+- **added** River Rouge Sch Dist — River Rouge STEM Academy (PreK&#8211;8) `(42.2744022, -83.1307077)`
+
 ## 2026-09-15 22:04 UTC
 
 ### Baseline recorded for 52 region(s), 4,725 location(s)

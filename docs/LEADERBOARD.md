@@ -1,15 +1,15 @@
 # eduroam service locations by region
 
-**4,725** eduroam service locations across **52** regions.
+**4,730** eduroam service locations across **52** regions.
 
-Data last changed: 2026-09-15
+Data last changed: 2026-09-17
 
 Source: the public eduroam location database at [monitor.eduroam.org](https://monitor.eduroam.org/kml/us.kml).
 
 | # | Region | Locations | Change | Map |
 |--:|:-------|----------:|-------:|:----|
 | 1 | Utah | 786 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ut.kml) |
-| 2 | Michigan | 503 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
+| 2 | Michigan | 508 | +5 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
 | 3 | Nevada | 365 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_nv.kml) |
 | 4 | Nebraska | 362 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ne.kml) |
 | 5 | Wisconsin | 212 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |

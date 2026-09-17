@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-15",
+ "last_changed": "2026-09-17",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -6613,14 +6613,14 @@
      "org": "The University of Louisiana Monroe"
     },
     {
-     "dhash": "367b75163720c565",
+     "dhash": "cfbd3057605edd6e",
      "lat": "29.95504",
-     "loc": "Health Sciences Center",
+     "loc": "Downtown Campus",
      "lon": "-90.0768769",
      "org": "Tulane University of Louisiana"
     },
     {
-     "dhash": "df1520aa4f18e8ac",
+     "dhash": "af32177d4a0beffb",
      "lat": "29.9354099",
      "loc": "Uptown Campus",
      "lon": "-90.122739",
@@ -7593,7 +7593,7 @@
   "mi": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "464cab9b4304b547f197e90dd8a5d061c9c7ff1a1d3d8f75967dd8b0f8bd2fa9",
-   "count": 503,
+   "count": 508,
    "name": "Michigan",
    "placemarks": [
     {
@@ -10906,6 +10906,41 @@
      "loc": "13565 Port Sheldon St.",
      "lon": "-86.1184936",
      "org": "Ottawa Area ISD"
+    },
+    {
+     "dhash": "29f78c52d9da2543",
+     "lat": "42.2645855",
+     "loc": "Ann Visger Preparatory Academy (PreK&#8211;5)",
+     "lon": "-83.1362401",
+     "org": "River Rouge Sch Dist"
+    },
+    {
+     "dhash": "2012fc5c841886ca",
+     "lat": "42.2710321",
+     "loc": "Clarence B. Sabbath Middle School (6&#8211;8)",
+     "lon": "-83.1465569",
+     "org": "River Rouge Sch Dist"
+    },
+    {
+     "dhash": "12d7d22675fec158",
+     "lat": "42.2752866",
+     "loc": "District Administration &amp; Enrollment Office",
+     "lon": "-83.1371775",
+     "org": "River Rouge Sch Dist"
+    },
+    {
+     "dhash": "98cc07f90a22915c",
+     "lat": "42.2752866",
+     "loc": "River Rouge High School &amp; Virtual Academy",
+     "lon": "-83.1371775",
+     "org": "River Rouge Sch Dist"
+    },
+    {
+     "dhash": "1692d5f5f230096d",
+     "lat": "42.2744022",
+     "loc": "River Rouge STEM Academy (PreK&#8211;8)",
+     "lon": "-83.1307077",
+     "org": "River Rouge Sch Dist"
     },
     {
      "dhash": "d1db24afb471d3a5",
