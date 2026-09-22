@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-17",
+ "last_changed": "2026-09-22",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -7593,9 +7593,51 @@
   "mi": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "464cab9b4304b547f197e90dd8a5d061c9c7ff1a1d3d8f75967dd8b0f8bd2fa9",
-   "count": 508,
+   "count": 514,
    "name": "Michigan",
    "placemarks": [
+    {
+     "dhash": "abe8a9a8737bccf9",
+     "lat": "42.2781739",
+     "loc": "Ann Arbor District Library - Downtown Branch",
+     "lon": "-83.7458934",
+     "org": "Ann Arbor District Library"
+    },
+    {
+     "dhash": "1dfb783338594e90",
+     "lat": "42.2436678",
+     "loc": "Ann Arbor District Library - Malletts Creek Branch",
+     "lon": "-83.7179295",
+     "org": "Ann Arbor District Library"
+    },
+    {
+     "dhash": "022869eb1cf8c1da",
+     "lat": "42.2808191",
+     "loc": "Ann Arbor District Library - Parkland Plaza",
+     "lon": "-83.8106866",
+     "org": "Ann Arbor District Library"
+    },
+    {
+     "dhash": "41e304783f0be8eb",
+     "lat": "42.2525775",
+     "loc": "Ann Arbor District Library - Pittsfield Branch",
+     "lon": "-83.7779609",
+     "org": "Ann Arbor District Library"
+    },
+    {
+     "dhash": "f4c065781193072c",
+     "lat": "42.3082082",
+     "loc": "Ann Arbor District Library - Traverwood Branch",
+     "lon": "-83.7141434",
+     "org": "Ann Arbor District Library"
+    },
+    {
+     "dhash": "64731ad747d81906",
+     "lat": "42.2785858",
+     "loc": "Ann Arbor District Library - Westgate Branch",
+     "lon": "-83.7827579",
+     "org": "Ann Arbor District Library"
+    },
     {
      "dhash": "8f136f1e006b5ba9",
      "lat": "42.3310998",

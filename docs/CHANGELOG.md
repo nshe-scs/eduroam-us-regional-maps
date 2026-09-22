@@ -2,6 +2,19 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-09-22 06:44 UTC
+
+6 added across 1 region(s).
+
+### Michigan — 508 → 514
+
+- **added** Ann Arbor District Library — Ann Arbor District Library - Downtown Branch `(42.2781739, -83.7458934)`
+- **added** Ann Arbor District Library — Ann Arbor District Library - Malletts Creek Branch `(42.2436678, -83.7179295)`
+- **added** Ann Arbor District Library — Ann Arbor District Library - Parkland Plaza `(42.2808191, -83.8106866)`
+- **added** Ann Arbor District Library — Ann Arbor District Library - Pittsfield Branch `(42.2525775, -83.7779609)`
+- **added** Ann Arbor District Library — Ann Arbor District Library - Traverwood Branch `(42.3082082, -83.7141434)`
+- **added** Ann Arbor District Library — Ann Arbor District Library - Westgate Branch `(42.2785858, -83.7827579)`
+
 ## 2026-09-17 06:45 UTC
 
 6 added, 1 removed across 2 region(s).
