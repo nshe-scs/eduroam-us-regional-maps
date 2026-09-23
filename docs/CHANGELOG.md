@@ -2,6 +2,20 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-09-23 06:45 UTC
+
+2 added, 5 removed across 1 region(s).
+
+### Wisconsin — 212 → 209
+
+- **added** Waukesha School District — Crosspoint Academy `(43.0015638, -88.2405251)`
+- **added** Waukesha School District — Waukesha STEM Academy `(43.0281676, -88.2042566)`
+- **removed** Waukesha School District — Bethesda Elementary School `(43.0040987, -88.2765919)`
+- **removed** Waukesha School District — Hawthorne Elementary School `(43.0260399, -88.2473557)`
+- **removed** Waukesha School District — Horning Middle School `(43.0281676, -88.2042566)`
+- **removed** Waukesha School District — STEM Elementary School `(42.9924671, -88.2261791)`
+- **removed** Waukesha School District — STEM Saratoga School `(43.0015638, -88.2405251)`
+
 ## 2026-09-22 06:44 UTC
 
 6 added across 1 region(s).

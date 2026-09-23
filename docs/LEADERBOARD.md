@@ -1,18 +1,18 @@
 # eduroam service locations by region
 
-**4,736** eduroam service locations across **52** regions.
+**4,733** eduroam service locations across **52** regions.
 
-Data last changed: 2026-09-22
+Data last changed: 2026-09-23
 
 Source: the public eduroam location database at [monitor.eduroam.org](https://monitor.eduroam.org/kml/us.kml).
 
 | # | Region | Locations | Change | Map |
 |--:|:-------|----------:|-------:|:----|
 | 1 | Utah | 786 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ut.kml) |
-| 2 | Michigan | 514 | +6 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
+| 2 | Michigan | 514 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
 | 3 | Nevada | 365 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_nv.kml) |
 | 4 | Nebraska | 362 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ne.kml) |
-| 5 | Wisconsin | 212 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |
+| 5 | Wisconsin | 209 | −3 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |
 | 6 | California | 191 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ca.kml) |
 | 7 | Connecticut | 171 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ct.kml) |
 | 8 | New York | 164 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ny.kml) |

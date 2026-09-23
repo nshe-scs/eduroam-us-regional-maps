@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-22",
+ "last_changed": "2026-09-23",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -31917,7 +31917,7 @@
   "wi": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "1af4adfe19df8bf0ce15969e61ff5044b6e6a50f2900f99f103d6f55a0076cde",
-   "count": 212,
+   "count": 209,
    "name": "Wisconsin",
    "placemarks": [
     {
@@ -33202,14 +33202,14 @@
      "org": "Wabeno School District"
     },
     {
-     "dhash": "13850cc7eba481c7",
+     "dhash": "23f0e2a663c230e5",
      "lat": "43.0705938",
      "loc": "Waukesha County Technical College Pewaukee Campus",
      "lon": "-88.2570691",
      "org": "Waukesha County Technical College"
     },
     {
-     "dhash": "07a28b352cdd77ff",
+     "dhash": "c42ae75ee516f608",
      "lat": "43.0074777",
      "loc": "Waukesha County Technical College Waukesha Campus",
      "lon": "-88.2233661",
@@ -33220,13 +33220,6 @@
      "lat": "43.0288372",
      "loc": "Banting Elementary School",
      "lon": "-88.2050283",
-     "org": "Waukesha School District"
-    },
-    {
-     "dhash": "3c0404bafe61f93f",
-     "lat": "43.0040987",
-     "loc": "Bethesda Elementary School",
-     "lon": "-88.2765919",
      "org": "Waukesha School District"
     },
     {
@@ -33241,6 +33234,13 @@
      "lat": "43.0161827",
      "loc": "Butler Middle School",
      "lon": "-88.247757",
+     "org": "Waukesha School District"
+    },
+    {
+     "dhash": "428fe1eeff6b4d41",
+     "lat": "43.0015638",
+     "loc": "Crosspoint Academy",
+     "lon": "-88.2405251",
      "org": "Waukesha School District"
     },
     {
@@ -33265,13 +33265,6 @@
      "org": "Waukesha School District"
     },
     {
-     "dhash": "9809c93d515d96e4",
-     "lat": "43.0260399",
-     "loc": "Hawthorne Elementary School",
-     "lon": "-88.2473557",
-     "org": "Waukesha School District"
-    },
-    {
      "dhash": "0ba7b679c517c29a",
      "lat": "42.9898983",
      "loc": "Heyer Elementary School",
@@ -33283,13 +33276,6 @@
      "lat": "43.02565",
      "loc": "Hillcrest Elementary School",
      "lon": "-88.185937",
-     "org": "Waukesha School District"
-    },
-    {
-     "dhash": "1d85ca5694273c4e",
-     "lat": "43.0281676",
-     "loc": "Horning Middle School",
-     "lon": "-88.2042566",
      "org": "Waukesha School District"
     },
     {
@@ -33349,24 +33335,17 @@
      "org": "Waukesha School District"
     },
     {
-     "dhash": "b1793614e9dbc351",
-     "lat": "42.9924671",
-     "loc": "STEM Elementary School",
-     "lon": "-88.2261791",
-     "org": "Waukesha School District"
-    },
-    {
-     "dhash": "5449d8d2b9bec03c",
-     "lat": "43.0015638",
-     "loc": "STEM Saratoga School",
-     "lon": "-88.2405251",
-     "org": "Waukesha School District"
-    },
-    {
      "dhash": "2ee95b1549374c43",
      "lat": "43.0242741",
      "loc": "Summit View Elementary School",
      "lon": "-88.260906",
+     "org": "Waukesha School District"
+    },
+    {
+     "dhash": "66f7bad39939821c",
+     "lat": "43.0281676",
+     "loc": "Waukesha STEM Academy",
+     "lon": "-88.2042566",
      "org": "Waukesha School District"
     },
     {
