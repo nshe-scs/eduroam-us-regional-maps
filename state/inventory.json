@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-23",
+ "last_changed": "2026-09-24",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -4115,7 +4115,7 @@
   "fl": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "9e2045304e9de8fa433e0226bffe795c9dda4057d7334c7ae25c418a2fd7e33e",
-   "count": 134,
+   "count": 135,
    "name": "Florida",
    "placemarks": [
     {
@@ -4980,10 +4980,17 @@
      "org": "University of Florida"
     },
     {
-     "dhash": "b4c19e681f961f5b",
-     "lat": "25.7193715",
+     "dhash": "094a68a6d0d08e9b",
+     "lat": "25.7134835",
      "loc": "Main Campus",
-     "lon": "-80.2776318",
+     "lon": "-80.2773968",
+     "org": "University of Miami"
+    },
+    {
+     "dhash": "265370953ed58364",
+     "lat": "25.7326805",
+     "loc": "Rosenstiel School of Marine, Atmospheric, and Earth Science",
+     "lon": "-80.1627436",
      "org": "University of Miami"
     },
     {

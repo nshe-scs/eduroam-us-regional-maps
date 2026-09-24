@@ -2,6 +2,15 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-09-24 06:45 UTC
+
+1 added, 1 moved across 1 region(s).
+
+### Florida — 134 → 135
+
+- **added** University of Miami — Rosenstiel School of Marine, Atmospheric, and Earth Science `(25.7326805, -80.1627436)`
+- **moved** University of Miami — Main Campus `(25.7193715, -80.2776318)` → `(25.7134835, -80.2773968)`
+
 ## 2026-09-23 06:45 UTC
 
 2 added, 5 removed across 1 region(s).
