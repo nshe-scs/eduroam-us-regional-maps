@@ -2,6 +2,14 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-09-26 06:42 UTC
+
+1 added across 1 region(s).
+
+### Michigan — 514 → 515
+
+- **added** Redford Township District Library — Redford Township District Library `(42.4146395, -83.2893326)`
+
 ## 2026-09-24 06:45 UTC
 
 1 added, 1 moved across 1 region(s).

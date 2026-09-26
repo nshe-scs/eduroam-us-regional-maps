@@ -1,15 +1,15 @@
 # eduroam service locations by region
 
-**4,734** eduroam service locations across **52** regions.
+**4,735** eduroam service locations across **52** regions.
 
-Data last changed: 2026-09-24
+Data last changed: 2026-09-26
 
 Source: the public eduroam location database at [monitor.eduroam.org](https://monitor.eduroam.org/kml/us.kml).
 
 | # | Region | Locations | Change | Map |
 |--:|:-------|----------:|-------:|:----|
 | 1 | Utah | 786 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ut.kml) |
-| 2 | Michigan | 514 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
+| 2 | Michigan | 515 | +1 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
 | 3 | Nevada | 365 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_nv.kml) |
 | 4 | Nebraska | 362 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ne.kml) |
 | 5 | Wisconsin | 209 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |
@@ -20,7 +20,7 @@ Source: the public eduroam location database at [monitor.eduroam.org](https://mo
 | 10 | Minnesota | 142 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mn.kml) |
 | 10 | Texas | 142 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_tx.kml) |
 | 12 | Washington | 137 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wa.kml) |
-| 13 | Florida | 135 | +1 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_fl.kml) |
+| 13 | Florida | 135 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_fl.kml) |
 | 14 | North Carolina | 133 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_nc.kml) |
 | 15 | Virginia | 110 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_va.kml) |
 | 16 | Arizona | 92 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_az.kml) |

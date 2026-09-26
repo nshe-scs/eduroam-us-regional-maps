@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-24",
+ "last_changed": "2026-09-26",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -7600,7 +7600,7 @@
   "mi": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "464cab9b4304b547f197e90dd8a5d061c9c7ff1a1d3d8f75967dd8b0f8bd2fa9",
-   "count": 514,
+   "count": 515,
    "name": "Michigan",
    "placemarks": [
     {
@@ -10955,6 +10955,13 @@
      "loc": "13565 Port Sheldon St.",
      "lon": "-86.1184936",
      "org": "Ottawa Area ISD"
+    },
+    {
+     "dhash": "8c4da3a78ab40ea2",
+     "lat": "42.4146395",
+     "loc": "Redford Township District Library",
+     "lon": "-83.2893326",
+     "org": "Redford Township District Library"
     },
     {
      "dhash": "29f78c52d9da2543",
