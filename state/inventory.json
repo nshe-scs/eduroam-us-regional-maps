@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-26",
+ "last_changed": "2026-09-30",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -11213,7 +11213,7 @@
   "mn": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "6bb2d92d1ac7300a8611b159559b5219da593f87d55073cdd99ed57d6a7fcf65",
-   "count": 142,
+   "count": 143,
    "name": "Minnesota",
    "placemarks": [
     {
@@ -11642,6 +11642,13 @@
      "loc": "Normandale Community College",
      "lon": "-93.3315628",
      "org": "Normandale Community College"
+    },
+    {
+     "dhash": "14ec1b233e63145c",
+     "lat": "47.5068",
+     "loc": "Northeast Service Cooperative",
+     "lon": "-92.6107",
+     "org": "Northeast Service Cooperative"
     },
     {
      "dhash": "6e36ce58612e803b",

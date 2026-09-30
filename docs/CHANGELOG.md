@@ -2,6 +2,14 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-09-30 06:48 UTC
+
+1 added across 1 region(s).
+
+### Minnesota — 142 → 143
+
+- **added** Northeast Service Cooperative — Northeast Service Cooperative `(47.5068, -92.6107)`
+
 ## 2026-09-26 06:42 UTC
 
 1 added across 1 region(s).
