@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-09-30",
+ "last_changed": "2026-10-01",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -31938,7 +31938,7 @@
   "wi": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "1af4adfe19df8bf0ce15969e61ff5044b6e6a50f2900f99f103d6f55a0076cde",
-   "count": 209,
+   "count": 210,
    "name": "Wisconsin",
    "placemarks": [
     {
@@ -33403,6 +33403,13 @@
      "loc": "UW-Milwaukee Panther Arena",
      "lon": "-87.9170854",
      "org": "Wisconsin Center District"
+    },
+    {
+     "dhash": "ce56804fd7e39e38",
+     "lat": "43.0728496",
+     "loc": "Wisconsin Department of Public Instruction",
+     "lon": "-89.3860889",
+     "org": "Wisconsin Department of Public Instruction"
     }
    ]
   },

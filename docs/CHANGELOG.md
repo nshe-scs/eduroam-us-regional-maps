@@ -2,6 +2,14 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-10-01 06:49 UTC
+
+1 added across 1 region(s).
+
+### Wisconsin — 209 → 210
+
+- **added** Wisconsin Department of Public Instruction — Wisconsin Department of Public Instruction `(43.0728496, -89.3860889)`
+
 ## 2026-09-30 06:48 UTC
 
 1 added across 1 region(s).
