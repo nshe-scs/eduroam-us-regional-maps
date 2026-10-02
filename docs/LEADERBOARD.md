@@ -12,7 +12,7 @@ Source: the public eduroam location database at [monitor.eduroam.org](https://mo
 | 2 | Michigan | 515 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
 | 3 | Nevada | 365 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_nv.kml) |
 | 4 | Nebraska | 362 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ne.kml) |
-| 5 | Wisconsin | 210 | +1 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |
+| 5 | Wisconsin | 210 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |
 | 6 | California | 191 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ca.kml) |
 | 7 | Connecticut | 171 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ct.kml) |
 | 8 | New York | 164 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ny.kml) |
