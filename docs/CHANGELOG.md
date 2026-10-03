@@ -2,6 +2,14 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-10-03 06:54 UTC
+
+1 added across 1 region(s).
+
+### Missouri — 71 → 72
+
+- **added** St Charles Convention Center — St. Charles Convention Center `(38.7696837, -90.5024297)`
+
 ## 2026-10-01 06:49 UTC
 
 1 added across 1 region(s).

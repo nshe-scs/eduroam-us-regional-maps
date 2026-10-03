@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-10-01",
+ "last_changed": "2026-10-03",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -12222,7 +12222,7 @@
   "mo": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "5d648fbe5e8f72637bd461c0cf8d4095cce8ee8d7ef79711a7879595ac614e4f",
-   "count": 71,
+   "count": 72,
    "name": "Missouri",
    "placemarks": [
     {
@@ -12392,6 +12392,13 @@
      "loc": "Saint Louis University",
      "lon": "-90.2312165",
      "org": "Saint Louis University-Main Campus"
+    },
+    {
+     "dhash": "b83e4749b8bbd900",
+     "lat": "38.7696837",
+     "loc": "St. Charles Convention Center",
+     "lon": "-90.5024297",
+     "org": "St Charles Convention Center"
     },
     {
      "dhash": "fe4ccadf338c0e72",
