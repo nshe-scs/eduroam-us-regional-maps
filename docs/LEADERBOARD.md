@@ -27,7 +27,7 @@ Source: the public eduroam location database at [monitor.eduroam.org](https://mo
 | 17 | Massachusetts | 86 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ma.kml) |
 | 18 | Oregon | 77 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_or.kml) |
 | 19 | Ohio | 73 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_oh.kml) |
-| 20 | Missouri | 72 | +1 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mo.kml) |
+| 20 | Missouri | 72 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mo.kml) |
 | 21 | Georgia | 62 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ga.kml) |
 | 22 | Delaware | 53 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_de.kml) |
 | 23 | Tennessee | 43 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_tn.kml) |
