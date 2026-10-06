@@ -24,7 +24,9 @@ and plot the points rather than using `KmlLayer`.
 A nightly GitHub Actions run downloads the eduroam US map, clips it against the
 region boundaries in `regions/`, and writes one KML per region into `docs/`
 alongside a leaderboard[^1] and a changelog. If nothing changed, nothing is
-committed. If something did, the run produces exactly one commit.
+committed. If something did, the run produces exactly one commit. A fetch that
+times out or returns a transient error, e.g. a 503, is retried with exponential
+backoff before the run is failed.
 
 A service location is identified by institution, location name and coordinates.
 A region's map is rebuilt when a location is **added**, **removed** or **moved**.
@@ -88,7 +90,9 @@ python3 make_regions.py us_states.geojson regions/
 |:--|:--|:--|
 | `source_url` | eduroam US KML | Upstream map |
 | `min_refresh_seconds` | `3600` | Skip the network if the cached copy is younger |
-| `http_timeout` | `60` | Seconds |
+| `http_timeout` | `60` | Seconds per attempt |
+| `fetch_retries` | `3` | Extra attempts if the upstream fetch fails |
+| `retry_backoff_seconds` | `5` | First wait between attempts; doubles each time |
 | `regenerate_on` | `"locations"` | `"locations"` or `"any"` |
 | `placemark_icon_url` | `""` | Marker icon; empty emits no styles |
 | `min_placemarks` | `100` | Abort if upstream returns fewer |

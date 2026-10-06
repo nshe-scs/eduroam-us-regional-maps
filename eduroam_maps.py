@@ -74,6 +74,10 @@ DEFAULT_CONFIG = {
     # job be run several times a day without hammering the source.
     "min_refresh_seconds": 3600,
     "http_timeout": 60,
+    # Upstream occasionally stalls. Retry the fetch a few times before giving
+    # up, waiting backoff, 2x backoff, 4x ... between attempts.
+    "fetch_retries": 3,
+    "retry_backoff_seconds": 5,
     # "locations": rebuild a region only when service locations are added,
     #              removed or moved (recommended -- ignores upstream metadata
     #              churn such as changing AP counts).
@@ -522,6 +526,25 @@ def parse_source_kml(data: bytes) -> List[Placemark]:
     return sorted(found.values(), key=lambda p: p.sort_key)
 
 
+# Transient by nature: worth another go. Anything else (404, 403, 400) will
+# fail the same way on a second attempt, so it is raised immediately.
+RETRYABLE_STATUS = frozenset({408, 425, 429, 500, 502, 503, 504})
+MAX_RETRY_AFTER = 300
+
+
+def retry_delay(attempt: int, backoff: float, headers=None) -> float:
+    """Exponential backoff, unless the server asked for a specific wait."""
+    delay = backoff * (2 ** (attempt - 1))
+    raw = (headers or {}).get("Retry-After") if headers else None
+    if raw:
+        try:
+            # Retry-After may also be an HTTP date; fall back to backoff there.
+            delay = max(0.0, min(float(int(str(raw).strip())), MAX_RETRY_AFTER))
+        except ValueError:
+            pass
+    return delay
+
+
 def fetch_source(cfg: dict, force: bool) -> Tuple[bytes, dict]:
     """
     Return (kml bytes, metadata).
@@ -561,20 +584,50 @@ def fetch_source(cfg: dict, force: bool) -> Tuple[bytes, dict]:
             request.add_header("If-Modified-Since", meta["last_modified"])
 
     LOG.info("Checking %s for a newer map", url)
-    try:
-        with urllib.request.urlopen(request, timeout=cfg["http_timeout"]) as response:
-            body = response.read()
-            headers = response.headers
-    except urllib.error.HTTPError as exc:
-        if exc.code == 304 and cached:
-            LOG.info("Upstream map unchanged (HTTP 304)")
-            meta["fetched_at_epoch"] = time.time()
-            meta["fetched_at"] = iso(utcnow())
-            write_atomic(meta_path, json.dumps(meta, indent=2, sort_keys=True).encode())
-            return cached, meta
-        raise SystemExit(f"Failed to fetch {url}: HTTP {exc.code} {exc.reason}")
-    except (urllib.error.URLError, OSError) as exc:
-        raise SystemExit(f"Failed to fetch {url}: {exc}")
+    attempts = max(1, int(cfg.get("fetch_retries", 3)) + 1)
+    backoff = float(cfg.get("retry_backoff_seconds", 5))
+    body = headers = None
+
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=cfg["http_timeout"]) as response:
+                body = response.read()
+                headers = response.headers
+            break
+        except urllib.error.HTTPError as exc:
+            if exc.code == 304 and cached:
+                LOG.info("Upstream map unchanged (HTTP 304)")
+                meta["fetched_at_epoch"] = time.time()
+                meta["fetched_at"] = iso(utcnow())
+                write_atomic(meta_path, json.dumps(meta, indent=2, sort_keys=True).encode())
+                return cached, meta
+            if exc.code in RETRYABLE_STATUS and attempt < attempts:
+                delay = retry_delay(attempt, backoff, exc.headers)
+                LOG.warning(
+                    "Attempt %d of %d: HTTP %d %s; retrying in %.0fs",
+                    attempt, attempts, exc.code, exc.reason, delay,
+                )
+                time.sleep(delay)
+                continue
+            raise SystemExit(
+                f"Failed to fetch {url} after {attempt} attempt(s): "
+                f"HTTP {exc.code} {exc.reason}"
+            )
+        except (urllib.error.URLError, OSError) as exc:
+            # Covers connect and read timeouts, DNS failures and dropped
+            # connections -- all worth retrying.
+            if attempt < attempts:
+                delay = retry_delay(attempt, backoff)
+                LOG.warning(
+                    "Attempt %d of %d: %s; retrying in %.0fs",
+                    attempt, attempts, exc, delay,
+                )
+                time.sleep(delay)
+                continue
+            raise SystemExit(f"Failed to fetch {url} after {attempt} attempt(s): {exc}")
+
+    if attempt > 1:
+        LOG.info("Fetched on attempt %d of %d", attempt, attempts)
 
     if not body.strip():
         raise SystemExit("Upstream map came back empty -- refusing to touch the published maps.")
