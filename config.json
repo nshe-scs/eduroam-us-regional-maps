@@ -1,9 +1,9 @@
 {
   "source_url": "https://monitor.eduroam.org/kml/us.kml",
   "min_refresh_seconds": 3600,
-  "http_timeout": 60,
+  "http_timeout": 90,
   "fetch_retries": 3,
-  "retry_backoff_seconds": 5,
+  "retry_backoff_seconds": 10,
   "regenerate_on": "locations",
   "placemark_icon_url": "",
   "min_placemarks": 100,
