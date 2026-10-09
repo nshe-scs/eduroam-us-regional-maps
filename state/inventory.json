@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-10-03",
+ "last_changed": "2026-10-09",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -7646,13 +7646,6 @@
      "org": "Ann Arbor District Library"
     },
     {
-     "dhash": "8f136f1e006b5ba9",
-     "lat": "42.3310998",
-     "loc": "Apple Developer Academy - Detroit",
-     "lon": "-83.0460416",
-     "org": "Apple Developer Academy - Detroit"
-    },
-    {
      "dhash": "d407f10f3447af94",
      "lat": "42.3790549",
      "loc": "Atkinson Avenue Historic District",
@@ -9541,6 +9534,13 @@
      "loc": "Newlab (Book Building)",
      "lon": "-83.0760223",
      "org": "Michigan Central"
+    },
+    {
+     "dhash": "45a4da33d1e8b652",
+     "lat": "42.3583979",
+     "loc": "Michigan Science Center",
+     "lon": "-83.0620176",
+     "org": "Michigan Science Center"
     },
     {
      "dhash": "d0dde4c1e24f0e31",
@@ -24640,7 +24640,7 @@
   "ut": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "e06a29bec010c1b4f3df31fa2aeece40227601cb3dfdd81f00d1fa34e23ae9b6",
-   "count": 786,
+   "count": 788,
    "name": "Utah",
    "placemarks": [
     {
@@ -29467,10 +29467,24 @@
      "org": "Utah Tech University"
     },
     {
-     "dhash": "a118db0a37cef259",
-     "lat": "40.2795779",
-     "loc": "Main Campus",
-     "lon": "-111.7181205",
+     "dhash": "97652b5956dd9e36",
+     "lat": "40.4288692",
+     "loc": "UVU - Lehi Campus",
+     "lon": "-111.8962253",
+     "org": "Utah Valley University"
+    },
+    {
+     "dhash": "9a4fad37ae430be5",
+     "lat": "40.2787626",
+     "loc": "UVU - Main Campus",
+     "lon": "-111.7153739",
+     "org": "Utah Valley University"
+    },
+    {
+     "dhash": "8ef8b5b93b1366ca",
+     "lat": "40.545359",
+     "loc": "UVU - Wasatch Campus",
+     "lon": "-111.413593",
      "org": "Utah Valley University"
     },
     {

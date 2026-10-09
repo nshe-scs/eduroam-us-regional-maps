@@ -47,13 +47,6 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Apple Developer Academy - Detroit</name>
-      <description><![CDATA[<b>Name:</b> Apple Developer Academy - Detroit<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA3<br><b>AP:</b> 25<br>]]></description>
-      <Point>
-        <coordinates>-83.0460416,42.3310998,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <name>Atkinson Avenue Historic District</name>
       <description><![CDATA[<b>Name:</b> Atkinson Avenue Historic District<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA2<br><b>AP:</b> 6<br>]]></description>
       <Point>
@@ -1941,6 +1934,13 @@
       <description><![CDATA[<b>Name:</b> Newlab (Book Building)<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA3<br><b>AP:</b> 300<br>]]></description>
       <Point>
         <coordinates>-83.0760223,42.3286509,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Michigan Science Center</name>
+      <description><![CDATA[<b>Name:</b> Michigan Science Center<br><b>Address:</b> , <br><b>SSID:</b> eduroam<br><b>Enc:</b> WPA2 + WPA3<br><b>AP:</b> 20<br>]]></description>
+      <Point>
+        <coordinates>-83.0620176,42.3583979,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>

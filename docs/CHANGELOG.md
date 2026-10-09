@@ -2,6 +2,22 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-10-09 06:51 UTC
+
+4 added, 2 removed across 2 region(s).
+
+### Michigan — 515 → 515
+
+- **added** Michigan Science Center — Michigan Science Center `(42.3583979, -83.0620176)`
+- **removed** Apple Developer Academy - Detroit — Apple Developer Academy - Detroit `(42.3310998, -83.0460416)`
+
+### Utah — 786 → 788
+
+- **added** Utah Valley University — UVU - Lehi Campus `(40.4288692, -111.8962253)`
+- **added** Utah Valley University — UVU - Main Campus `(40.2787626, -111.7153739)`
+- **added** Utah Valley University — UVU - Wasatch Campus `(40.545359, -111.413593)`
+- **removed** Utah Valley University — Main Campus `(40.2795779, -111.7181205)`
+
 ## 2026-10-03 06:54 UTC
 
 1 added across 1 region(s).
