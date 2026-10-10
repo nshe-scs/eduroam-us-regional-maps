@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-10-09",
+ "last_changed": "2026-10-10",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -2425,7 +2425,7 @@
   "ct": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "aea0b919e351b7e5bc2b03586d5784e33d9201d8bbc96c1957e2c16f59d6ec4a",
-   "count": 171,
+   "count": 176,
    "name": "Connecticut",
    "placemarks": [
     {
@@ -3358,6 +3358,41 @@
      "loc": "Stonington Free Library",
      "lon": "-71.9065134",
      "org": "Stonington Free Library"
+    },
+    {
+     "dhash": "84b6d5193524f907",
+     "lat": "41.361232",
+     "loc": "Deans Mill School",
+     "lon": "-71.9245731",
+     "org": "Stonington Public Schools"
+    },
+    {
+     "dhash": "88d50ecc364f109a",
+     "lat": "41.3578002",
+     "loc": "District Office",
+     "lon": "-71.9444161",
+     "org": "Stonington Public Schools"
+    },
+    {
+     "dhash": "07f63e4af316be37",
+     "lat": "41.3657043",
+     "loc": "Stonington High School",
+     "lon": "-71.8549096",
+     "org": "Stonington Public Schools"
+    },
+    {
+     "dhash": "6af9f909a6a23df7",
+     "lat": "41.3701905",
+     "loc": "Stonington Middle School",
+     "lon": "-71.8432897",
+     "org": "Stonington Public Schools"
+    },
+    {
+     "dhash": "d96d3df1157cd5d3",
+     "lat": "41.3862789",
+     "loc": "West Vine Street School",
+     "lon": "-71.8419515",
+     "org": "Stonington Public Schools"
     },
     {
      "dhash": "f68e39503cab454e",
@@ -13956,7 +13991,7 @@
   "ne": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "a09700c26faf4182df6c698f03728c8c1fc8fbe353d5b419c8b389f1526865b6",
-   "count": 362,
+   "count": 363,
    "name": "Nebraska",
    "placemarks": [
     {
@@ -14100,7 +14135,7 @@
      "org": "Central Community College"
     },
     {
-     "dhash": "9dde386209f12536",
+     "dhash": "2da489f1b6cfd59d",
      "lat": "40.43883",
      "loc": "Central Community College - Holdrege Center",
      "lon": "-99.3708783",
@@ -15777,6 +15812,13 @@
      "lat": "41.1241433",
      "loc": "ESU16",
      "lon": "-101.7219088",
+     "org": "Network Nebraska - ESU 16"
+    },
+    {
+     "dhash": "ef7dcd0afab7fdb3",
+     "lat": "41.125409",
+     "loc": "Network Nebraska - ESU16 - Paxton Consolidated Schools",
+     "lon": "-101.3615151",
      "org": "Network Nebraska - ESU 16"
     },
     {

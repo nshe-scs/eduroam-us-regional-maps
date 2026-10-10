@@ -2,6 +2,22 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-10-10 06:46 UTC
+
+6 added across 2 region(s).
+
+### Connecticut — 171 → 176
+
+- **added** Stonington Public Schools — Deans Mill School `(41.361232, -71.9245731)`
+- **added** Stonington Public Schools — District Office `(41.3578002, -71.9444161)`
+- **added** Stonington Public Schools — Stonington High School `(41.3657043, -71.8549096)`
+- **added** Stonington Public Schools — Stonington Middle School `(41.3701905, -71.8432897)`
+- **added** Stonington Public Schools — West Vine Street School `(41.3862789, -71.8419515)`
+
+### Nebraska — 362 → 363
+
+- **added** Network Nebraska - ESU 16 — Network Nebraska - ESU16 - Paxton Consolidated Schools `(41.125409, -101.3615151)`
+
 ## 2026-10-09 06:51 UTC
 
 4 added, 2 removed across 2 region(s).
