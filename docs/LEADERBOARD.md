@@ -11,10 +11,10 @@ Source: the public eduroam location database at [monitor.eduroam.org](https://mo
 | 1 | Utah | 788 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ut.kml) |
 | 2 | Michigan | 515 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mi.kml) |
 | 3 | Nevada | 365 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_nv.kml) |
-| 4 | Nebraska | 363 | +1 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ne.kml) |
+| 4 | Nebraska | 363 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ne.kml) |
 | 5 | Wisconsin | 210 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_wi.kml) |
 | 6 | California | 191 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ca.kml) |
-| 7 | Connecticut | 176 | +5 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ct.kml) |
+| 7 | Connecticut | 176 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ct.kml) |
 | 8 | New York | 164 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ny.kml) |
 | 9 | Pennsylvania | 148 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_pa.kml) |
 | 10 | Minnesota | 143 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mn.kml) |
