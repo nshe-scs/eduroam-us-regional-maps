@@ -2,6 +2,14 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-10-14 06:46 UTC
+
+1 added across 1 region(s).
+
+### Missouri — 72 → 73
+
+- **added** MOREnet Building — MOREnet Building `(38.9602394, -92.374956)`
+
 ## 2026-10-10 06:46 UTC
 
 6 added across 2 region(s).

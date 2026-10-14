@@ -1,8 +1,8 @@
 # eduroam service locations by region
 
-**4,746** eduroam service locations across **52** regions.
+**4,747** eduroam service locations across **52** regions.
 
-Data last changed: 2026-10-10
+Data last changed: 2026-10-14
 
 Source: the public eduroam location database at [monitor.eduroam.org](https://monitor.eduroam.org/kml/us.kml).
 
@@ -26,8 +26,8 @@ Source: the public eduroam location database at [monitor.eduroam.org](https://mo
 | 16 | Arizona | 92 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_az.kml) |
 | 17 | Massachusetts | 86 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ma.kml) |
 | 18 | Oregon | 77 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_or.kml) |
+| 19 | Missouri | 73 | +1 | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mo.kml) |
 | 19 | Ohio | 73 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_oh.kml) |
-| 20 | Missouri | 72 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_mo.kml) |
 | 21 | Georgia | 62 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_ga.kml) |
 | 22 | Delaware | 53 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_de.kml) |
 | 23 | Tennessee | 43 | – | [KML](https://nshe-scs.github.io/eduroam-us-regional-maps/eduroam_tn.kml) |

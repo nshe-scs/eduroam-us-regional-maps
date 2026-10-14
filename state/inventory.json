@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-10-10",
+ "last_changed": "2026-10-14",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -12257,7 +12257,7 @@
   "mo": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "5d648fbe5e8f72637bd461c0cf8d4095cce8ee8d7ef79711a7879595ac614e4f",
-   "count": 72,
+   "count": 73,
    "name": "Missouri",
    "placemarks": [
     {
@@ -12392,6 +12392,13 @@
      "loc": "MOREnet",
      "lon": "-92.3749605",
      "org": "MOREnet (Missouri Research and Education Network)"
+    },
+    {
+     "dhash": "7446b1ac3ea3c840",
+     "lat": "38.9602394",
+     "loc": "MOREnet Building",
+     "lon": "-92.374956",
+     "org": "MOREnet Building"
     },
     {
      "dhash": "a214e6efd82536e1",
