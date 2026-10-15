@@ -1,5 +1,5 @@
 {
- "last_changed": "2026-10-14",
+ "last_changed": "2026-10-15",
  "regions": {
   "ak": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
@@ -5103,7 +5103,7 @@
   "ga": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "e98a6a56d08dccd99903d83a26367b2bbc8723081ae7bae9402e3b3bc1073a85",
-   "count": 62,
+   "count": 63,
    "name": "Georgia",
    "placemarks": [
     {
@@ -5170,10 +5170,17 @@
      "org": "Clayton State University"
     },
     {
-     "dhash": "5d831ceedfc465f3",
-     "lat": "31.1832874",
-     "loc": "College of Coastal Georgia",
-     "lon": "-81.4867973",
+     "dhash": "8524f9fb3f800c4b",
+     "lat": "31.185528",
+     "loc": "CCGA - Brunswick (Main) Campus",
+     "lon": "-81.4869001",
+     "org": "College of Coastal Georgia"
+    },
+    {
+     "dhash": "03c8ce6d22481b8f",
+     "lat": "30.8063583",
+     "loc": "CCGA - Camden Center",
+     "lon": "-81.654448",
      "org": "College of Coastal Georgia"
     },
     {
@@ -21440,7 +21447,7 @@
   "or": {
    "attribution_sha256": "5a656e76940a6817f2f01c9c9178a943b0f757192802c09b35e007dfd86ca2ab",
    "boundary_sha256": "133ce13e60b38992c46d3808a2e68165ecb8c4f1e047c908153204381b9ae675",
-   "count": 77,
+   "count": 85,
    "name": "Oregon",
    "placemarks": [
     {
@@ -21883,6 +21890,62 @@
      "loc": "Hillsboro Campus",
      "lon": "-122.9768593",
      "org": "Pacific University"
+    },
+    {
+     "dhash": "d09547a902249203",
+     "lat": "45.6459841",
+     "loc": "McKay Creek Elementary",
+     "lon": "-118.8258444",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "a9a7e8541c231afe",
+     "lat": "45.6656461",
+     "loc": "Nixyaawii Community School",
+     "lon": "-118.6918009",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "8497fad0c656f234",
+     "lat": "45.6663057",
+     "loc": "Pendleton Early Learning Center",
+     "lon": "-118.798622",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "53cac62c9e6dbc15",
+     "lat": "45.6759282",
+     "loc": "Pendleton High School",
+     "lon": "-118.8051901",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "c67c8f09dffd52d5",
+     "lat": "45.6729388",
+     "loc": "Pendleton School District Office",
+     "lon": "-118.7979365",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "1d9e48d167a85156",
+     "lat": "45.6535863",
+     "loc": "Sherwood Elementary",
+     "lon": "-118.8158149",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "a212a767860017d2",
+     "lat": "45.6515291",
+     "loc": "Sunridge Middle School",
+     "lon": "-118.7879065",
+     "org": "Pendleton School District"
+    },
+    {
+     "dhash": "0868cdf6474ab726",
+     "lat": "45.6765592",
+     "loc": "Washington Elementary",
+     "lon": "-118.7736354",
+     "org": "Pendleton School District"
     },
     {
      "dhash": "8f465f866c6e02d5",

@@ -2,6 +2,27 @@
 
 Newest first. Each entry lists the service locations added to, removed from or moved within a region since the previous run.
 
+## 2026-10-15 06:46 UTC
+
+10 added, 1 removed across 2 region(s).
+
+### Georgia — 62 → 63
+
+- **added** College of Coastal Georgia — CCGA - Brunswick (Main) Campus `(31.185528, -81.4869001)`
+- **added** College of Coastal Georgia — CCGA - Camden Center `(30.8063583, -81.654448)`
+- **removed** College of Coastal Georgia — College of Coastal Georgia `(31.1832874, -81.4867973)`
+
+### Oregon — 77 → 85
+
+- **added** Pendleton School District — McKay Creek Elementary `(45.6459841, -118.8258444)`
+- **added** Pendleton School District — Nixyaawii Community School `(45.6656461, -118.6918009)`
+- **added** Pendleton School District — Pendleton Early Learning Center `(45.6663057, -118.798622)`
+- **added** Pendleton School District — Pendleton High School `(45.6759282, -118.8051901)`
+- **added** Pendleton School District — Pendleton School District Office `(45.6729388, -118.7979365)`
+- **added** Pendleton School District — Sherwood Elementary `(45.6535863, -118.8158149)`
+- **added** Pendleton School District — Sunridge Middle School `(45.6515291, -118.7879065)`
+- **added** Pendleton School District — Washington Elementary `(45.6765592, -118.7736354)`
+
 ## 2026-10-14 06:46 UTC
 
 1 added across 1 region(s).
